@@ -1,0 +1,24 @@
+{
+  "name": "react-antd-layout-cli",
+  "type": "module",
+  "main": "./bin/react-antd-layout-cli.js",
+  "version": "1.0.1",
+  "description": "react+antd 项目框架脚手架",
+  "bin": {
+    "react-antd-layout-cli": "./bin/react-antd-layout-cli.js"
+  },
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "react",
+    "antd",
+    "react-layout",
+    "react-antd-layout-cli"
+  ]
+}
