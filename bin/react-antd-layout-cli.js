@@ -55,7 +55,7 @@ function _request(url) {
         method: 'GET',
         headers: {
           Authorization:
-            'token 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',
+            'token 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',
           'user-agent': 'lishengqin-Octocat-reactLayoutCli',
         },
       },
