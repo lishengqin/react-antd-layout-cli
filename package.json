@@ -2,7 +2,7 @@
   "name": "react-antd-layout-cli",
   "type": "module",
   "main": "./bin/react-antd-layout-cli.js",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "react+antd 项目框架脚手架",
   "bin": {
     "react-antd-layout-cli": "./bin/react-antd-layout-cli.js"

@@ -6,6 +6,7 @@ import inquirer from 'inquirer';
 import request from 'request';
 import { fileURLToPath } from 'url';
 import { templateAllFile } from './templateAllFile.js';
+import { token } from './token';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 function deleteFolder(filePath) {
@@ -54,8 +55,7 @@ function _request(url) {
         url: url,
         method: 'GET',
         headers: {
-          Authorization:
-            'token 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',
+          Authorization: 'token ' + token,
           'user-agent': 'lishengqin-Octocat-reactLayoutCli',
         },
       },
